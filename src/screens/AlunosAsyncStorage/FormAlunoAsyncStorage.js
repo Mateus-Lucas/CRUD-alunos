@@ -11,7 +11,6 @@ export default function FormAlunoAsyncStorage({ navigation, route }) {
   const [matricula, setMatricula] = useState('')
   const [curso, setCurso] = useState('')
   const [turno, setTurno] = useState('')
-  const [selectedValue, setSelecteValue] = useState(turno)
 
   const [showMensagemErro, setShowMensagemErro] = useState(false)
 
